@@ -1,0 +1,27 @@
+﻿There is a rail road to different towns from one town. It is considered that the rail road is one way because of budgetary issues. 
+If there is city A and it has cities B and C connected by rail roads, it is not mandatory that A has direct railroad to both B and C. 
+The route to C from A can be A to B and then B to C. 
+
+The above scenario is depicted as a graph. The nodes are the towns and edges are the distances between them. The input given will be a graph 
+and also the route to towns. The output must be the total rail road distance between the towns and if no route exists, it must say 'No Route exists'.
+
+NODE 1      NODE 2      DISTANCE
+   A                 B                  5
+   B                 C                  2
+   C                 D                  3
+   B                 E                  4
+
+
+
+
+Input 1:
+A-B-E
+
+Input 2:
+A-C-E
+
+Output 1:
+9
+
+Output 2:
+No Route Exists
