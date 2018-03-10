@@ -10,7 +10,7 @@ namespace RailroadDistanceProblem.Model
     class Graph
     {
         //Collection of all the nodes in the graph
-        internal List<Node> listOfNodes { get; private set; }
+        private List<Node> listOfNodes { get; private set; }
 
         //Private collection to store all possible routes from onwards the traversal process
         private List<List<Node>> listOfPossibleRoutes { get; set; }
